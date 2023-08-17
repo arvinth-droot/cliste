@@ -1,0 +1,60 @@
+.container_wrapper {
+  background-color: #315c66;
+  margin-top: 100px;
+  padding: 64px 85px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10%;
+}
+
+.title {
+  color: #f2f2f2;
+  font-family: Inter;
+  font-size: 34.667px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text {
+  color: #f2f2f2;
+  font-family: Inter;
+  font-size: 21.333px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.2%; /* 27.136px */
+}
+
+.list {
+  list-style-type: none;
+  color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.news_letter {
+}
+
+.news_letter input {
+  padding: 10px;
+  font-size: 21px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+}
+.news_letter input:focus {
+  border: none;
+  outline: none;
+}
+
+.news_letter button {
+  color: #f2f2f2;
+  font-size: 21px;
+  background-color: #0089a9;
+  border: none;
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+}
