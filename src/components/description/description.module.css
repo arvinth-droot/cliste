@@ -14,7 +14,7 @@
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 100px;
 }
 
@@ -34,4 +34,66 @@
   font-style: normal;
   font-weight: 400;
   line-height: 167%; /* 30.06px */
+}
+
+.accordion {
+  padding: 24px;
+  border: 1px solid black;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #ddffd1;
+  margin-top: -10px;
+}
+
+.accordion:first-child {
+  margin-top: 0px;
+}
+
+.accordion:last-child {
+  border-radius: 16px;
+}
+
+.accordion_title {
+  color: #3b3b3b;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 121.2%; /* 24.24px */
+}
+
+.accordion_panel {
+  /* justify-content: space-between; */
+  margin-top: 20px;
+  gap: 20px;
+  width: 100%;
+}
+
+.accordion_panel_text {
+  color: #3b3b3b;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.32px;
+}
+
+.health_title {
+  color: #3b3b3b;
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 134%; /* 42.88px */
+}
+
+.health_description {
+  color: #315c66;
+  text-align: center;
+  font-family: var(--font_inter);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
 }

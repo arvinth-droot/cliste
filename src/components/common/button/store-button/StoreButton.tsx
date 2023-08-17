@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import "./store_button.module.css";
-import classes from  './store_button.module.css'
+import classes from "./store_button.module.css";
 
-function StoreButton({ logo, title }) {
+interface props {
+  logo: any;
+  title: string;
+}
+
+function StoreButton({ logo, title }: props) {
   return (
     <div
       style={{
@@ -13,7 +18,7 @@ function StoreButton({ logo, title }) {
         display: "flex",
         gap: 10,
         alignItems: "center",
-        maxWidth:260
+        width: 260,
       }}
     >
       <Image src={logo} height={28} width={28} alt="AppleStore" />

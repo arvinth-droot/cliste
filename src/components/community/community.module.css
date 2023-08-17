@@ -1,0 +1,23 @@
+.title {
+  color: #315c66;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 121.2%; /* 38.784px */
+    margin-bottom: 24px;
+}
+
+.description {
+  color: #315c66;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 169%; /* 30.42px */
+  letter-spacing: 0.18px;
+}
+
+.description br{
+    margin:10px 0px
+}

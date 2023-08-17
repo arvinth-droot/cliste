@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+:root{
+  --font_inter:'Inter';
+}
+
+
 * {
+  font-family: var(--font_inter);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
