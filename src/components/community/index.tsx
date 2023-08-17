@@ -5,7 +5,9 @@ import Image from "next/image";
 
 export default function Community() {
   return (
-    <div style={{ marginTop: 50,backgroundColor:'#F3F8EA',padding:"44px 0px" }}>
+    <div
+      style={{ marginTop: 50, backgroundColor: "#F3F8EA", padding: "44px 0px" }}
+    >
       <div
         style={{
           display: "flex",
@@ -16,7 +18,7 @@ export default function Community() {
           style={{
             display: "flex",
             justifyContent: "center",
-            alignItems:'center'
+            alignItems: "center",
           }}
         >
           <div style={{ width: "50%" }}>
@@ -30,9 +32,9 @@ export default function Community() {
                 sharing your beloved recipes with the Cliste Life community.
                 <br />
                 <br />
-                Connect with fellow food enthusiasts through lively discussions
+                {`Connect with fellow food enthusiasts through lively discussions
                 in the recipe comment section, share cooking tips, variations,
-                and appreciation for each other's culinary masterpieces.
+                and appreciation for each other's culinary masterpieces.`}
                 <br />
                 <br />
                 Help the community discover the most loved and top-rated recipes
@@ -42,7 +44,7 @@ export default function Community() {
           </div>
 
           <div>
-            <Image src={CommunityImage} alt="image"/>
+            <Image src={CommunityImage} alt="image" />
           </div>
         </div>
       </div>

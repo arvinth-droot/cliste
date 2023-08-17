@@ -24,9 +24,9 @@ export default function Hero() {
               <span className={classes.title_highlight}> daily lifestyle!</span>
             </h2>
             <h6 className={classes.description}>
-              Welcome to our world of wellness! Your health is our heartbeat.
+             {`Welcome to our world of wellness! Your health is our heartbeat.
               Together, we'll conquer your health goals with a sprinkle of
-              creativity and a dash of friendly motivation.
+              creativity and a dash of friendly motivation.`}
             </h6>
 
             <StoreButton logo={PlayStore} title="Download for Android" />

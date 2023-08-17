@@ -106,7 +106,7 @@ function Description() {
                   </div>
 
                   <div style={{ width: "50%", textAlign: "center" }}>
-                    <Image src={item?.image} width={"100%"} height={"100%"} />
+                    <Image src={item?.image} width={100} height={100} alt="img"/>
                   </div>
                 </div>
               </div>

@@ -10,12 +10,12 @@ function Contact() {
           <div style={{ width: "100%" }}>
             <div style={{ width: "80%" }}>
               <h2 className={classes.title}>
-                We're eager to hear your friendly hello!
+                {`We're eager to hear your friendly hello!`}
               </h2>
               <p className={classes.description}>
-                Got a question, suggestion, or just want to say hi? We can't
+                {`Got a question, suggestion, or just want to say hi? We can't
                 wait to connect with you! Fill out the form below, and we'll get
-                back to you ASAP.
+                back to you ASAP.`}
               </p>
             </div>
           </div>

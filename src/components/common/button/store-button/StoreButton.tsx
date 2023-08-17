@@ -6,7 +6,7 @@ import classes from "./store_button.module.css";
 interface props {
   logo: any;
   title: string;
-  styles: object;
+  styles?: object;
 }
 
 function StoreButton({ logo, title, styles }: props) {
