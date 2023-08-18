@@ -8,16 +8,9 @@ export default function Footer() {
   return (
     <div className={classes.container_wrapper}>
       <div className={classes.container}>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 10,
-            width: "100%",
-          }}
-        >
+        <div className={classes.main_div}>
           <h4 className={classes.title}>Cliste Life</h4>
-          <p className={classes.text} style={{marginBottom:40}}>Feel the change in your wellness.</p>
+          <p className={classes.text}>Feel the change in your wellness.</p>
 
           <ul className={classes.list}>
             <li>Start</li>
@@ -28,21 +21,14 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 10,
-            width: "100%",
-          }}
-        >
-          <h4 className={classes.title} style={{marginBottom:40}}>Get Cliste Life app</h4>
+        <div className={classes.main_div}>
+          <h4 className={classes.title}>Get Cliste Life app</h4>
           <p className={classes.text}>
             Get the Cliste Sense app now for the ultimate kitchen assistant in
             the palm of your hand
           </p>
 
-          <div style={{ display: "flex", gap: 20,marginTop:10 }}>
+          <div style={{ display: "flex", gap: 20, marginTop: 10 }}>
             <StoreButton
               logo={PlayStore}
               title="Download for Android"
@@ -56,15 +42,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 10,
-            width: "100%",
-          }}
-        >
-          <h4 className={classes.title} style={{marginBottom:40}}>Join the movement</h4>
+        <div className={classes.main_div}>
+          <h4 className={classes.title}>
+            Join the movement
+          </h4>
           <div className={classes.news_letter}>
             <input placeholder="Enter your email" />
             <button>Submit</button>
@@ -72,14 +53,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          gap: 20,
-          justifyContent: "flex-end",
-          marginTop: 100,
-        }}
-      >
+      <div className={classes.icon_div}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="46"

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 78px;
 }
 
 .container_wrapper {
@@ -43,4 +44,18 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 28.8px */
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .wrapper{
+    margin-top: 68px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper{
+    margin-top: 45px;
+  }
 }

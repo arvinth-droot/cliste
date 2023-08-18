@@ -11,17 +11,7 @@ interface props {
 
 function StoreButton({ logo, title, styles }: props) {
   return (
-    <div
-      style={{
-        borderRadius: 8,
-        border: " 1.5px solid #CEC8C8",
-        padding: "8px 16px",
-        display: "flex",
-        gap: 10,
-        alignItems: "center",
-        width: 260,
-      }}
-    >
+    <div className={classes.btn}>
       <Image src={logo} height={28} width={28} alt="AppleStore" />
 
       <h6 className={classes.text} style={{ ...styles }}>

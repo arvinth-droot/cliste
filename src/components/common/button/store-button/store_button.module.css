@@ -7,3 +7,36 @@
   line-height: normal;
   letter-spacing: 0.16px;
 }
+
+.btn {
+  border-radius: 8px;
+  border: 1.5px solid #cec8c8;
+  padding: 8px 16px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 260px;
+}
+
+@media screen and (max-width: 1400px) {
+  .btn {
+    width: 206px;
+    padding: 6px 12px;
+  }
+  .text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    width: 172px;
+    padding: 5px 10px;
+  }
+  .text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
