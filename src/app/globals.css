@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
 
-:root{
-  --font_inter:'Inter';
+
+:root {
+  --font_inter: 'Nunito Sans', sans-serif;
 }
-
 
 * {
   font-family: var(--font_inter);
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 38px !important;
+  border-radius: 0px !important;
+  height: 4px !important;
+  background-color: #999 !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: black !important;
 }
 
 /* // Small devices (landscape phones, 576px and up)

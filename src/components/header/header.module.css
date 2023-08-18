@@ -9,6 +9,7 @@
   position: fixed !important;
   width: 100%;
   top: 0px;
+  z-index: 99;
 }
 
 .logo_div {

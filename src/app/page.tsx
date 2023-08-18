@@ -6,6 +6,9 @@ import Community from "@/components/community";
 import Faq from "@/components/faq";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import Recipe from "@/components/recipe";
+import Slider from "@/components/slider";
+
 
 export default function Home() {
   return (
@@ -13,10 +16,12 @@ export default function Home() {
       <Header />
       <Hero />
       <Description />
+      <Slider />
+      <Recipe />
       <Community />
-      <Faq/>
-      <Contact/>
-      <Footer/>
+      <Faq />
+      <Contact />
+      <Footer />
     </main>
   );
 }
